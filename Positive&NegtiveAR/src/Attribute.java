@@ -1,7 +1,7 @@
 import java.util.*;
-public class Attribute {
+class Attribute {
 	private String attrName;
-	ArrayList<String> attrValues;
+	private ArrayList<String> attrValues;
 	Attribute(String attrName) {
 		this.attrName = attrName;
 		attrValues = new ArrayList<String>();
