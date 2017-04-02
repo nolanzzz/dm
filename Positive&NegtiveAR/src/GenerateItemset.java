@@ -26,6 +26,7 @@ public class GenerateItemset {
     	 tuplesSize = tuples.size();
     	 this.ms = ms;
     	 this.mi = mi;   	 
+    	 pruneItemset();
      }
      
 	public List<ArrayList<String>> firstItemSet()

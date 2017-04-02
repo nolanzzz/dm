@@ -23,6 +23,6 @@ public class main {
 		 ArrayList<ArrayList<String>> tuples = rd.getTuples();
 		 
 		 GenerateItemset gi = new GenerateItemset(fileName, tuples, ms, mi);
-		 
+
 	}
 }

@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
 import java.util.StringTokenizer;
 import java.io.*;
 
@@ -24,6 +25,9 @@ public class ReadData {
 	private String line, value, name;
 	private File data;
 	
+	
+
+	
 	//new scanner to scan file
 	private Scanner readFile;
 	
@@ -35,6 +39,8 @@ public class ReadData {
 		retrieveAttr();
 		generateData();
 	}
+	
+	
 	
 	/* retrieve attributes */
 	public void retrieveAttr() {
