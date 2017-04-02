@@ -30,12 +30,10 @@ public class readData {
 				double attrTag = i+1;
 				double valueTag = j+1;
 				String tag = attrTag + "." + valueTag;
-				//attr_tag.put(attributes.get(i).getValues().get(j), tag);
 			}
 		}
 		
 		//read tuples
-		//ArrayList<ArrayList<String>> tuples = new ArrayList<ArrayList<String>>();
 		ArrayList<HashMap<String, HashMap<String, String>>> tuples = new ArrayList<HashMap<String, HashMap<String, String>>>();
 		
 
