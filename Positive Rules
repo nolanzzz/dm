@@ -1,0 +1,3384 @@
+Summary: 
+Total rows in the original set: 51
+TotalPositive rules discovered: 844
+The selected measures: Support = 0.1 Confidence = 0.1 Interest: 0.01
+----------------------------------------------------------------
+
+ Rules:
+
+Rules#1:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, humidity=normal, windy=false, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#2:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, humidity=normal, windy=false, playtennis=p,  }
+
+Rules#3:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, windy=false, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#4:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, humidity=normal, windy=false, playtennis=p,  }
+
+Rules#5:(Support=0.12, Confidence=0.86)
+{ temperature=hot, outlook=overcast, windy=false, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#6:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast, windy=false, playtennis=p,  }
+
+Rules#7:(Support=0.12, Confidence=1.0)
+{ temperature=hot, outlook=overcast, humidity=normal, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#8:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ temperature=hot, outlook=overcast, humidity=normal, playtennis=p,  }
+
+Rules#9:(Support=0.12, Confidence=1.0)
+{ temperature=hot, outlook=overcast, humidity=normal, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#10:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast, humidity=normal, windy=false,  }
+
+Rules#11:(Support=0.12, Confidence=0.39)
+{ humidity=normal, windy=false, playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#12:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ humidity=normal, windy=false, playtennis=p,  }
+
+Rules#13:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#14:(Support=0.12, Confidence=0.67)
+{ temperature=hot, windy=false,  }
+ ---->{ outlook=overcast, humidity=normal, playtennis=p,  }
+
+Rules#15:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, humidity=normal, windy=false,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#16:(Support=0.12, Confidence=0.86)
+{ temperature=hot, playtennis=p,  }
+ ---->{ outlook=overcast, humidity=normal, windy=false,  }
+
+Rules#17:(Support=0.12, Confidence=0.86)
+{ temperature=hot, windy=false, playtennis=p,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#18:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=hot, windy=false, playtennis=p,  }
+
+Rules#19:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, playtennis=p,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#20:(Support=0.12, Confidence=0.75)
+{ outlook=overcast, windy=false,  }
+ ---->{ temperature=hot, humidity=normal, playtennis=p,  }
+
+Rules#21:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, windy=false,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#22:(Support=0.12, Confidence=0.48)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ temperature=hot, humidity=normal, windy=false,  }
+
+Rules#23:(Support=0.12, Confidence=0.86)
+{ temperature=hot, outlook=overcast, playtennis=p,  }
+ ---->{ humidity=normal, windy=false,  }
+
+Rules#24:(Support=0.12, Confidence=0.39)
+{ humidity=normal, windy=false,  }
+ ---->{ temperature=hot, outlook=overcast, playtennis=p,  }
+
+Rules#25:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast, windy=false,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#26:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast, windy=false,  }
+
+Rules#27:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast, windy=false,  }
+
+Rules#28:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast, windy=false,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#29:(Support=0.12, Confidence=0.39)
+{ humidity=normal, windy=false,  }
+ ---->{ temperature=hot, outlook=overcast, playtennis=p,  }
+
+Rules#30:(Support=0.12, Confidence=0.86)
+{ temperature=hot, outlook=overcast, playtennis=p,  }
+ ---->{ humidity=normal, windy=false,  }
+
+Rules#31:(Support=0.12, Confidence=0.48)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ temperature=hot, humidity=normal, windy=false,  }
+
+Rules#32:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, windy=false,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#33:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=hot, windy=false, playtennis=p,  }
+
+Rules#34:(Support=0.12, Confidence=0.86)
+{ temperature=hot, windy=false, playtennis=p,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#35:(Support=0.12, Confidence=0.75)
+{ outlook=overcast, windy=false,  }
+ ---->{ temperature=hot, humidity=normal, playtennis=p,  }
+
+Rules#36:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, playtennis=p,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#37:(Support=0.12, Confidence=0.86)
+{ temperature=hot, playtennis=p,  }
+ ---->{ outlook=overcast, humidity=normal, windy=false,  }
+
+Rules#38:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, humidity=normal, windy=false,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#39:(Support=0.12, Confidence=0.67)
+{ temperature=hot, windy=false,  }
+ ---->{ outlook=overcast, humidity=normal, playtennis=p,  }
+
+Rules#40:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#41:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ humidity=normal, windy=false, playtennis=p,  }
+
+Rules#42:(Support=0.12, Confidence=0.39)
+{ humidity=normal, windy=false, playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#43:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast, humidity=normal, windy=false,  }
+
+Rules#44:(Support=0.12, Confidence=1.0)
+{ temperature=hot, outlook=overcast, humidity=normal, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#45:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast, windy=false, playtennis=p,  }
+
+Rules#46:(Support=0.12, Confidence=0.86)
+{ temperature=hot, outlook=overcast, windy=false, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#47:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ temperature=hot, outlook=overcast, humidity=normal, playtennis=p,  }
+
+Rules#48:(Support=0.12, Confidence=1.0)
+{ temperature=hot, outlook=overcast, humidity=normal, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#49:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, humidity=normal, windy=false, playtennis=p,  }
+
+Rules#50:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, windy=false, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#51:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, humidity=normal, windy=false, playtennis=p,  }
+
+Rules#52:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, humidity=normal, windy=false, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#53:(Support=0.2, Confidence=1.0)
+{ humidity=high, temperature=mild, windy=false, playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#54:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=high, temperature=mild, windy=false, playtennis=n,  }
+
+Rules#55:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, windy=false, playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#56:(Support=0.2, Confidence=0.49)
+{ humidity=high,  }
+ ---->{ outlook=sunny, temperature=mild, windy=false, playtennis=n,  }
+
+Rules#57:(Support=0.2, Confidence=0.91)
+{ outlook=sunny, humidity=high, windy=false, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#58:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, humidity=high, windy=false, playtennis=n,  }
+
+Rules#59:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, humidity=high, temperature=mild, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#60:(Support=0.2, Confidence=0.34)
+{ windy=false,  }
+ ---->{ outlook=sunny, humidity=high, temperature=mild, playtennis=n,  }
+
+Rules#61:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, humidity=high, temperature=mild, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#62:(Support=0.2, Confidence=0.51)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, humidity=high, temperature=mild, windy=false,  }
+
+Rules#63:(Support=0.2, Confidence=0.83)
+{ humidity=high, windy=false, playtennis=n,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#64:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ humidity=high, windy=false, playtennis=n,  }
+
+Rules#65:(Support=0.2, Confidence=0.91)
+{ humidity=high, temperature=mild, playtennis=n,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#66:(Support=0.2, Confidence=0.65)
+{ outlook=sunny, windy=false,  }
+ ---->{ humidity=high, temperature=mild, playtennis=n,  }
+
+Rules#67:(Support=0.2, Confidence=0.91)
+{ humidity=high, temperature=mild, windy=false,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#68:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ humidity=high, temperature=mild, windy=false,  }
+
+Rules#69:(Support=0.2, Confidence=0.91)
+{ outlook=sunny, windy=false, playtennis=n,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#70:(Support=0.2, Confidence=0.61)
+{ humidity=high, temperature=mild,  }
+ ---->{ outlook=sunny, windy=false, playtennis=n,  }
+
+Rules#71:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, playtennis=n,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#72:(Support=0.2, Confidence=0.74)
+{ humidity=high, windy=false,  }
+ ---->{ outlook=sunny, temperature=mild, playtennis=n,  }
+
+Rules#73:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, windy=false,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#74:(Support=0.2, Confidence=0.74)
+{ humidity=high, playtennis=n,  }
+ ---->{ outlook=sunny, temperature=mild, windy=false,  }
+
+Rules#75:(Support=0.2, Confidence=0.74)
+{ humidity=high, playtennis=n,  }
+ ---->{ outlook=sunny, temperature=mild, windy=false,  }
+
+Rules#76:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, windy=false,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#77:(Support=0.2, Confidence=0.74)
+{ humidity=high, windy=false,  }
+ ---->{ outlook=sunny, temperature=mild, playtennis=n,  }
+
+Rules#78:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, playtennis=n,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#79:(Support=0.2, Confidence=0.61)
+{ humidity=high, temperature=mild,  }
+ ---->{ outlook=sunny, windy=false, playtennis=n,  }
+
+Rules#80:(Support=0.2, Confidence=0.91)
+{ outlook=sunny, windy=false, playtennis=n,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#81:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ humidity=high, temperature=mild, windy=false,  }
+
+Rules#82:(Support=0.2, Confidence=0.91)
+{ humidity=high, temperature=mild, windy=false,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#83:(Support=0.2, Confidence=0.65)
+{ outlook=sunny, windy=false,  }
+ ---->{ humidity=high, temperature=mild, playtennis=n,  }
+
+Rules#84:(Support=0.2, Confidence=0.91)
+{ humidity=high, temperature=mild, playtennis=n,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#85:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ humidity=high, windy=false, playtennis=n,  }
+
+Rules#86:(Support=0.2, Confidence=0.83)
+{ humidity=high, windy=false, playtennis=n,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#87:(Support=0.2, Confidence=0.51)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, humidity=high, temperature=mild, windy=false,  }
+
+Rules#88:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, humidity=high, temperature=mild, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#89:(Support=0.2, Confidence=0.49)
+{ humidity=high,  }
+ ---->{ outlook=sunny, temperature=mild, windy=false, playtennis=n,  }
+
+Rules#90:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, windy=false, playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#91:(Support=0.2, Confidence=0.34)
+{ windy=false,  }
+ ---->{ outlook=sunny, humidity=high, temperature=mild, playtennis=n,  }
+
+Rules#92:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, humidity=high, temperature=mild, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#93:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, humidity=high, windy=false, playtennis=n,  }
+
+Rules#94:(Support=0.2, Confidence=0.91)
+{ outlook=sunny, humidity=high, windy=false, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#95:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=high, temperature=mild, windy=false, playtennis=n,  }
+
+Rules#96:(Support=0.2, Confidence=1.0)
+{ humidity=high, temperature=mild, windy=false, playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#97:(Support=0.12, Confidence=1.0)
+{ outlook=rain, windy=false, playtennis=p,  }
+ ---->{ temperature=mild,  }
+
+Rules#98:(Support=0.12, Confidence=0.23)
+{ temperature=mild,  }
+ ---->{ outlook=rain, windy=false, playtennis=p,  }
+
+Rules#99:(Support=0.12, Confidence=1.0)
+{ outlook=rain, temperature=mild, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#100:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=rain, temperature=mild, playtennis=p,  }
+
+Rules#101:(Support=0.12, Confidence=1.0)
+{ outlook=rain, temperature=mild, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#102:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=rain, temperature=mild, windy=false,  }
+
+Rules#103:(Support=0.2, Confidence=0.91)
+{ outlook=sunny, windy=false, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#104:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, windy=false, playtennis=n,  }
+
+Rules#105:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#106:(Support=0.2, Confidence=0.34)
+{ windy=false,  }
+ ---->{ outlook=sunny, temperature=mild, playtennis=n,  }
+
+Rules#107:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#108:(Support=0.2, Confidence=0.51)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, temperature=mild, windy=false,  }
+
+Rules#109:(Support=0.14, Confidence=1.0)
+{ outlook=overcast, windy=false, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#110:(Support=0.14, Confidence=0.7)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, windy=false, playtennis=p,  }
+
+Rules#111:(Support=0.14, Confidence=1.0)
+{ temperature=hot, windy=false, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#112:(Support=0.14, Confidence=0.38)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, windy=false, playtennis=p,  }
+
+Rules#113:(Support=0.14, Confidence=1.0)
+{ temperature=hot, outlook=overcast, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#114:(Support=0.14, Confidence=0.24)
+{ windy=false,  }
+ ---->{ temperature=hot, outlook=overcast, playtennis=p,  }
+
+Rules#115:(Support=0.14, Confidence=0.88)
+{ temperature=hot, outlook=overcast, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#116:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast, windy=false,  }
+
+Rules#117:(Support=0.14, Confidence=0.56)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#118:(Support=0.14, Confidence=0.78)
+{ temperature=hot, windy=false,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#119:(Support=0.14, Confidence=0.88)
+{ outlook=overcast, windy=false,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#120:(Support=0.14, Confidence=1.0)
+{ temperature=hot, playtennis=p,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#121:(Support=0.14, Confidence=1.0)
+{ temperature=hot, playtennis=p,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#122:(Support=0.14, Confidence=0.88)
+{ outlook=overcast, windy=false,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#123:(Support=0.14, Confidence=0.78)
+{ temperature=hot, windy=false,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#124:(Support=0.14, Confidence=0.56)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#125:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast, windy=false,  }
+
+Rules#126:(Support=0.14, Confidence=0.88)
+{ temperature=hot, outlook=overcast, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#127:(Support=0.14, Confidence=0.38)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, windy=false, playtennis=p,  }
+
+Rules#128:(Support=0.14, Confidence=1.0)
+{ temperature=hot, windy=false, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#129:(Support=0.14, Confidence=0.24)
+{ windy=false,  }
+ ---->{ temperature=hot, outlook=overcast, playtennis=p,  }
+
+Rules#130:(Support=0.14, Confidence=1.0)
+{ temperature=hot, outlook=overcast, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#131:(Support=0.14, Confidence=0.7)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, windy=false, playtennis=p,  }
+
+Rules#132:(Support=0.14, Confidence=1.0)
+{ outlook=overcast, windy=false, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#133:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, humidity=normal, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#134:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=overcast, humidity=normal, playtennis=p,  }
+
+Rules#135:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, windy=false, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#136:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=overcast, windy=false, playtennis=p,  }
+
+Rules#137:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, windy=false, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#138:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=overcast, windy=false, humidity=normal,  }
+
+Rules#139:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#140:(Support=0.12, Confidence=0.75)
+{ outlook=overcast, windy=false,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#141:(Support=0.12, Confidence=0.48)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#142:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#143:(Support=0.12, Confidence=0.75)
+{ outlook=overcast, windy=false,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#144:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#145:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#146:(Support=0.12, Confidence=0.48)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#147:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=overcast, windy=false, humidity=normal,  }
+
+Rules#148:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, windy=false, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#149:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=overcast, windy=false, playtennis=p,  }
+
+Rules#150:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, windy=false, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#151:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=overcast, humidity=normal, playtennis=p,  }
+
+Rules#152:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, humidity=normal, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#153:(Support=0.22, Confidence=0.92)
+{ humidity=high, windy=false, playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#154:(Support=0.22, Confidence=0.51)
+{ outlook=sunny,  }
+ ---->{ humidity=high, windy=false, playtennis=n,  }
+
+Rules#155:(Support=0.22, Confidence=1.0)
+{ outlook=sunny, windy=false, playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#156:(Support=0.22, Confidence=0.54)
+{ humidity=high,  }
+ ---->{ outlook=sunny, windy=false, playtennis=n,  }
+
+Rules#157:(Support=0.22, Confidence=0.92)
+{ outlook=sunny, humidity=high, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#158:(Support=0.22, Confidence=0.37)
+{ windy=false,  }
+ ---->{ outlook=sunny, humidity=high, playtennis=n,  }
+
+Rules#159:(Support=0.22, Confidence=1.0)
+{ outlook=sunny, humidity=high, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#160:(Support=0.22, Confidence=0.56)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, humidity=high, windy=false,  }
+
+Rules#161:(Support=0.22, Confidence=0.81)
+{ humidity=high, playtennis=n,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#162:(Support=0.22, Confidence=0.71)
+{ outlook=sunny, windy=false,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#163:(Support=0.22, Confidence=0.81)
+{ humidity=high, windy=false,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#164:(Support=0.22, Confidence=0.92)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#165:(Support=0.22, Confidence=0.92)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#166:(Support=0.22, Confidence=0.81)
+{ humidity=high, windy=false,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#167:(Support=0.22, Confidence=0.71)
+{ outlook=sunny, windy=false,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#168:(Support=0.22, Confidence=0.81)
+{ humidity=high, playtennis=n,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#169:(Support=0.22, Confidence=0.56)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, humidity=high, windy=false,  }
+
+Rules#170:(Support=0.22, Confidence=1.0)
+{ outlook=sunny, humidity=high, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#171:(Support=0.22, Confidence=0.54)
+{ humidity=high,  }
+ ---->{ outlook=sunny, windy=false, playtennis=n,  }
+
+Rules#172:(Support=0.22, Confidence=1.0)
+{ outlook=sunny, windy=false, playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#173:(Support=0.22, Confidence=0.37)
+{ windy=false,  }
+ ---->{ outlook=sunny, humidity=high, playtennis=n,  }
+
+Rules#174:(Support=0.22, Confidence=0.92)
+{ outlook=sunny, humidity=high, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#175:(Support=0.22, Confidence=0.51)
+{ outlook=sunny,  }
+ ---->{ humidity=high, windy=false, playtennis=n,  }
+
+Rules#176:(Support=0.22, Confidence=0.92)
+{ humidity=high, windy=false, playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#177:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#178:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ windy=false, humidity=normal, playtennis=p,  }
+
+Rules#179:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#180:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ temperature=hot, humidity=normal, playtennis=p,  }
+
+Rules#181:(Support=0.12, Confidence=0.86)
+{ temperature=hot, windy=false, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#182:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, windy=false, playtennis=p,  }
+
+Rules#183:(Support=0.12, Confidence=1.0)
+{ temperature=hot, windy=false, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#184:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ temperature=hot, windy=false, humidity=normal,  }
+
+Rules#185:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#186:(Support=0.12, Confidence=0.67)
+{ temperature=hot, windy=false,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#187:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#188:(Support=0.12, Confidence=0.86)
+{ temperature=hot, playtennis=p,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#189:(Support=0.12, Confidence=0.86)
+{ temperature=hot, playtennis=p,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#190:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#191:(Support=0.12, Confidence=0.67)
+{ temperature=hot, windy=false,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#192:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#193:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ temperature=hot, windy=false, humidity=normal,  }
+
+Rules#194:(Support=0.12, Confidence=1.0)
+{ temperature=hot, windy=false, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#195:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, windy=false, playtennis=p,  }
+
+Rules#196:(Support=0.12, Confidence=0.86)
+{ temperature=hot, windy=false, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#197:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ temperature=hot, humidity=normal, playtennis=p,  }
+
+Rules#198:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#199:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ windy=false, humidity=normal, playtennis=p,  }
+
+Rules#200:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#201:(Support=0.12, Confidence=1.0)
+{ humidity=normal, playtennis=n, windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#202:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ humidity=normal, playtennis=n, windy=true,  }
+
+Rules#203:(Support=0.12, Confidence=1.0)
+{ temperature=cool, playtennis=n, windy=true,  }
+ ---->{ humidity=normal,  }
+
+Rules#204:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=cool, playtennis=n, windy=true,  }
+
+Rules#205:(Support=0.12, Confidence=0.75)
+{ temperature=cool, humidity=normal, windy=true,  }
+ ---->{ playtennis=n,  }
+
+Rules#206:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ temperature=cool, humidity=normal, windy=true,  }
+
+Rules#207:(Support=0.12, Confidence=1.0)
+{ temperature=cool, humidity=normal, playtennis=n,  }
+ ---->{ windy=true,  }
+
+Rules#208:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ temperature=cool, humidity=normal, playtennis=n,  }
+
+Rules#209:(Support=0.12, Confidence=0.48)
+{ humidity=normal, windy=true,  }
+ ---->{ temperature=cool, playtennis=n,  }
+
+Rules#210:(Support=0.12, Confidence=1.0)
+{ temperature=cool, playtennis=n,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#211:(Support=0.12, Confidence=1.0)
+{ humidity=normal, playtennis=n,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#212:(Support=0.12, Confidence=0.75)
+{ temperature=cool, windy=true,  }
+ ---->{ humidity=normal, playtennis=n,  }
+
+Rules#213:(Support=0.12, Confidence=0.75)
+{ temperature=cool, windy=true,  }
+ ---->{ humidity=normal, playtennis=n,  }
+
+Rules#214:(Support=0.12, Confidence=1.0)
+{ humidity=normal, playtennis=n,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#215:(Support=0.12, Confidence=1.0)
+{ temperature=cool, playtennis=n,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#216:(Support=0.12, Confidence=0.48)
+{ humidity=normal, windy=true,  }
+ ---->{ temperature=cool, playtennis=n,  }
+
+Rules#217:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ temperature=cool, humidity=normal, playtennis=n,  }
+
+Rules#218:(Support=0.12, Confidence=1.0)
+{ temperature=cool, humidity=normal, playtennis=n,  }
+ ---->{ windy=true,  }
+
+Rules#219:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=cool, playtennis=n, windy=true,  }
+
+Rules#220:(Support=0.12, Confidence=1.0)
+{ temperature=cool, playtennis=n, windy=true,  }
+ ---->{ humidity=normal,  }
+
+Rules#221:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ temperature=cool, humidity=normal, windy=true,  }
+
+Rules#222:(Support=0.12, Confidence=0.75)
+{ temperature=cool, humidity=normal, windy=true,  }
+ ---->{ playtennis=n,  }
+
+Rules#223:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ humidity=normal, playtennis=n, windy=true,  }
+
+Rules#224:(Support=0.12, Confidence=1.0)
+{ humidity=normal, playtennis=n, windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#225:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, windy=false, humidity=normal,  }
+ ---->{ temperature=hot,  }
+
+Rules#226:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, windy=false, humidity=normal,  }
+
+Rules#227:(Support=0.12, Confidence=1.0)
+{ temperature=hot, windy=false, humidity=normal,  }
+ ---->{ outlook=overcast,  }
+
+Rules#228:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, windy=false, humidity=normal,  }
+
+Rules#229:(Support=0.12, Confidence=1.0)
+{ temperature=hot, outlook=overcast, humidity=normal,  }
+ ---->{ windy=false,  }
+
+Rules#230:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ temperature=hot, outlook=overcast, humidity=normal,  }
+
+Rules#231:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast, windy=false,  }
+ ---->{ humidity=normal,  }
+
+Rules#232:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast, windy=false,  }
+
+Rules#233:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#234:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#235:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#236:(Support=0.12, Confidence=0.67)
+{ temperature=hot, windy=false,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#237:(Support=0.12, Confidence=0.67)
+{ temperature=hot, windy=false,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#238:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#239:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#240:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#241:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast, windy=false,  }
+
+Rules#242:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast, windy=false,  }
+ ---->{ humidity=normal,  }
+
+Rules#243:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ temperature=hot, outlook=overcast, humidity=normal,  }
+
+Rules#244:(Support=0.12, Confidence=1.0)
+{ temperature=hot, outlook=overcast, humidity=normal,  }
+ ---->{ windy=false,  }
+
+Rules#245:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, windy=false, humidity=normal,  }
+
+Rules#246:(Support=0.12, Confidence=1.0)
+{ temperature=hot, windy=false, humidity=normal,  }
+ ---->{ outlook=overcast,  }
+
+Rules#247:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, windy=false, humidity=normal,  }
+
+Rules#248:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, windy=false, humidity=normal,  }
+ ---->{ temperature=hot,  }
+
+Rules#249:(Support=0.2, Confidence=0.83)
+{ humidity=high, windy=false, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#250:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ humidity=high, windy=false, playtennis=n,  }
+
+Rules#251:(Support=0.2, Confidence=0.91)
+{ humidity=high, temperature=mild, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#252:(Support=0.2, Confidence=0.34)
+{ windy=false,  }
+ ---->{ humidity=high, temperature=mild, playtennis=n,  }
+
+Rules#253:(Support=0.2, Confidence=0.91)
+{ humidity=high, temperature=mild, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#254:(Support=0.2, Confidence=0.51)
+{ playtennis=n,  }
+ ---->{ humidity=high, temperature=mild, windy=false,  }
+
+Rules#255:(Support=0.12, Confidence=0.75)
+{ temperature=cool, humidity=normal, windy=true,  }
+ ---->{ outlook=overcast,  }
+
+Rules#256:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=cool, humidity=normal, windy=true,  }
+
+Rules#257:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, humidity=normal, windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#258:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ outlook=overcast, humidity=normal, windy=true,  }
+
+Rules#259:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool, windy=true,  }
+ ---->{ humidity=normal,  }
+
+Rules#260:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=overcast, temperature=cool, windy=true,  }
+
+Rules#261:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool, humidity=normal,  }
+ ---->{ windy=true,  }
+
+Rules#262:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=overcast, temperature=cool, humidity=normal,  }
+
+Rules#263:(Support=0.12, Confidence=0.48)
+{ humidity=normal, windy=true,  }
+ ---->{ outlook=overcast, temperature=cool,  }
+
+Rules#264:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#265:(Support=0.12, Confidence=0.75)
+{ temperature=cool, windy=true,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#266:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#267:(Support=0.12, Confidence=0.48)
+{ temperature=cool, humidity=normal,  }
+ ---->{ outlook=overcast, windy=true,  }
+
+Rules#268:(Support=0.12, Confidence=0.55)
+{ outlook=overcast, windy=true,  }
+ ---->{ temperature=cool, humidity=normal,  }
+
+Rules#269:(Support=0.12, Confidence=0.55)
+{ outlook=overcast, windy=true,  }
+ ---->{ temperature=cool, humidity=normal,  }
+
+Rules#270:(Support=0.12, Confidence=0.48)
+{ temperature=cool, humidity=normal,  }
+ ---->{ outlook=overcast, windy=true,  }
+
+Rules#271:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#272:(Support=0.12, Confidence=0.75)
+{ temperature=cool, windy=true,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#273:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#274:(Support=0.12, Confidence=0.48)
+{ humidity=normal, windy=true,  }
+ ---->{ outlook=overcast, temperature=cool,  }
+
+Rules#275:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=overcast, temperature=cool, humidity=normal,  }
+
+Rules#276:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool, humidity=normal,  }
+ ---->{ windy=true,  }
+
+Rules#277:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=overcast, temperature=cool, windy=true,  }
+
+Rules#278:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool, windy=true,  }
+ ---->{ humidity=normal,  }
+
+Rules#279:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ outlook=overcast, humidity=normal, windy=true,  }
+
+Rules#280:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, humidity=normal, windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#281:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=cool, humidity=normal, windy=true,  }
+
+Rules#282:(Support=0.12, Confidence=0.75)
+{ temperature=cool, humidity=normal, windy=true,  }
+ ---->{ outlook=overcast,  }
+
+Rules#283:(Support=0.2, Confidence=0.91)
+{ temperature=mild, humidity=high, windy=false,  }
+ ---->{ outlook=sunny,  }
+
+Rules#284:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ temperature=mild, humidity=high, windy=false,  }
+
+Rules#285:(Support=0.2, Confidence=0.91)
+{ outlook=sunny, humidity=high, windy=false,  }
+ ---->{ temperature=mild,  }
+
+Rules#286:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, humidity=high, windy=false,  }
+
+Rules#287:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, windy=false,  }
+ ---->{ humidity=high,  }
+
+Rules#288:(Support=0.2, Confidence=0.49)
+{ humidity=high,  }
+ ---->{ outlook=sunny, temperature=mild, windy=false,  }
+
+Rules#289:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, humidity=high,  }
+ ---->{ windy=false,  }
+
+Rules#290:(Support=0.2, Confidence=0.34)
+{ windy=false,  }
+ ---->{ outlook=sunny, temperature=mild, humidity=high,  }
+
+Rules#291:(Support=0.2, Confidence=0.74)
+{ humidity=high, windy=false,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#292:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#293:(Support=0.2, Confidence=0.61)
+{ temperature=mild, humidity=high,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#294:(Support=0.2, Confidence=0.65)
+{ outlook=sunny, windy=false,  }
+ ---->{ temperature=mild, humidity=high,  }
+
+Rules#295:(Support=0.2, Confidence=0.65)
+{ outlook=sunny, windy=false,  }
+ ---->{ temperature=mild, humidity=high,  }
+
+Rules#296:(Support=0.2, Confidence=0.61)
+{ temperature=mild, humidity=high,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#297:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#298:(Support=0.2, Confidence=0.74)
+{ humidity=high, windy=false,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#299:(Support=0.2, Confidence=0.34)
+{ windy=false,  }
+ ---->{ outlook=sunny, temperature=mild, humidity=high,  }
+
+Rules#300:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, humidity=high,  }
+ ---->{ windy=false,  }
+
+Rules#301:(Support=0.2, Confidence=0.49)
+{ humidity=high,  }
+ ---->{ outlook=sunny, temperature=mild, windy=false,  }
+
+Rules#302:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, windy=false,  }
+ ---->{ humidity=high,  }
+
+Rules#303:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, humidity=high, windy=false,  }
+
+Rules#304:(Support=0.2, Confidence=0.91)
+{ outlook=sunny, humidity=high, windy=false,  }
+ ---->{ temperature=mild,  }
+
+Rules#305:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ temperature=mild, humidity=high, windy=false,  }
+
+Rules#306:(Support=0.2, Confidence=0.91)
+{ temperature=mild, humidity=high, windy=false,  }
+ ---->{ outlook=sunny,  }
+
+Rules#307:(Support=0.2, Confidence=0.91)
+{ humidity=high, temperature=mild, playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#308:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=high, temperature=mild, playtennis=n,  }
+
+Rules#309:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#310:(Support=0.2, Confidence=0.49)
+{ humidity=high,  }
+ ---->{ outlook=sunny, temperature=mild, playtennis=n,  }
+
+Rules#311:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, humidity=high, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#312:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, humidity=high, playtennis=n,  }
+
+Rules#313:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, humidity=high, temperature=mild,  }
+ ---->{ playtennis=n,  }
+
+Rules#314:(Support=0.2, Confidence=0.51)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, humidity=high, temperature=mild,  }
+
+Rules#315:(Support=0.2, Confidence=0.74)
+{ humidity=high, playtennis=n,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#316:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#317:(Support=0.2, Confidence=0.61)
+{ humidity=high, temperature=mild,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#318:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#319:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#320:(Support=0.2, Confidence=0.61)
+{ humidity=high, temperature=mild,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#321:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#322:(Support=0.2, Confidence=0.74)
+{ humidity=high, playtennis=n,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#323:(Support=0.2, Confidence=0.51)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, humidity=high, temperature=mild,  }
+
+Rules#324:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, humidity=high, temperature=mild,  }
+ ---->{ playtennis=n,  }
+
+Rules#325:(Support=0.2, Confidence=0.49)
+{ humidity=high,  }
+ ---->{ outlook=sunny, temperature=mild, playtennis=n,  }
+
+Rules#326:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, temperature=mild, playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#327:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, humidity=high, playtennis=n,  }
+
+Rules#328:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, humidity=high, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#329:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=high, temperature=mild, playtennis=n,  }
+
+Rules#330:(Support=0.2, Confidence=0.91)
+{ humidity=high, temperature=mild, playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#331:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#332:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, humidity=normal, playtennis=p,  }
+
+Rules#333:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#334:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, humidity=normal, playtennis=p,  }
+
+Rules#335:(Support=0.12, Confidence=0.86)
+{ temperature=hot, outlook=overcast, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#336:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast, playtennis=p,  }
+
+Rules#337:(Support=0.12, Confidence=1.0)
+{ temperature=hot, outlook=overcast, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#338:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast, humidity=normal,  }
+
+Rules#339:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#340:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#341:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#342:(Support=0.12, Confidence=0.86)
+{ temperature=hot, playtennis=p,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#343:(Support=0.12, Confidence=0.86)
+{ temperature=hot, playtennis=p,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#344:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#345:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#346:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#347:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast, humidity=normal,  }
+
+Rules#348:(Support=0.12, Confidence=1.0)
+{ temperature=hot, outlook=overcast, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#349:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast, playtennis=p,  }
+
+Rules#350:(Support=0.12, Confidence=0.86)
+{ temperature=hot, outlook=overcast, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#351:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, humidity=normal, playtennis=p,  }
+
+Rules#352:(Support=0.12, Confidence=1.0)
+{ temperature=hot, humidity=normal, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#353:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, humidity=normal, playtennis=p,  }
+
+Rules#354:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#355:(Support=0.14, Confidence=0.31)
+{ humidity=normal, playtennis=p,  }
+ ---->{ windy=true,  }
+
+Rules#356:(Support=0.14, Confidence=0.36)
+{ windy=true,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#357:(Support=0.14, Confidence=0.56)
+{ humidity=normal, windy=true,  }
+ ---->{ playtennis=p,  }
+
+Rules#358:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#359:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#360:(Support=0.14, Confidence=0.56)
+{ humidity=normal, windy=true,  }
+ ---->{ playtennis=p,  }
+
+Rules#361:(Support=0.14, Confidence=0.36)
+{ windy=true,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#362:(Support=0.14, Confidence=0.31)
+{ humidity=normal, playtennis=p,  }
+ ---->{ windy=true,  }
+
+Rules#363:(Support=0.12, Confidence=0.86)
+{ outlook=rain, playtennis=p,  }
+ ---->{ temperature=mild,  }
+
+Rules#364:(Support=0.12, Confidence=0.23)
+{ temperature=mild,  }
+ ---->{ outlook=rain, playtennis=p,  }
+
+Rules#365:(Support=0.12, Confidence=0.86)
+{ outlook=rain, temperature=mild,  }
+ ---->{ playtennis=p,  }
+
+Rules#366:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=rain, temperature=mild,  }
+
+Rules#367:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=rain, temperature=mild,  }
+
+Rules#368:(Support=0.12, Confidence=0.86)
+{ outlook=rain, temperature=mild,  }
+ ---->{ playtennis=p,  }
+
+Rules#369:(Support=0.12, Confidence=0.23)
+{ temperature=mild,  }
+ ---->{ outlook=rain, playtennis=p,  }
+
+Rules#370:(Support=0.12, Confidence=0.86)
+{ outlook=rain, playtennis=p,  }
+ ---->{ temperature=mild,  }
+
+Rules#371:(Support=0.24, Confidence=0.89)
+{ humidity=high, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#372:(Support=0.24, Confidence=0.41)
+{ windy=false,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#373:(Support=0.24, Confidence=0.89)
+{ humidity=high, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#374:(Support=0.24, Confidence=0.62)
+{ playtennis=n,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#375:(Support=0.24, Confidence=0.62)
+{ playtennis=n,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#376:(Support=0.24, Confidence=0.89)
+{ humidity=high, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#377:(Support=0.24, Confidence=0.41)
+{ windy=false,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#378:(Support=0.24, Confidence=0.89)
+{ humidity=high, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#379:(Support=0.12, Confidence=0.48)
+{ humidity=normal, windy=true,  }
+ ---->{ outlook=overcast,  }
+
+Rules#380:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#381:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ windy=true,  }
+
+Rules#382:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#383:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#384:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ windy=true,  }
+
+Rules#385:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#386:(Support=0.12, Confidence=0.48)
+{ humidity=normal, windy=true,  }
+ ---->{ outlook=overcast,  }
+
+Rules#387:(Support=0.31, Confidence=0.69)
+{ humidity=normal, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#388:(Support=0.31, Confidence=0.53)
+{ windy=false,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#389:(Support=0.31, Confidence=1.0)
+{ windy=false, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#390:(Support=0.31, Confidence=0.53)
+{ playtennis=p,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#391:(Support=0.31, Confidence=0.53)
+{ playtennis=p,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#392:(Support=0.31, Confidence=1.0)
+{ windy=false, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#393:(Support=0.31, Confidence=0.53)
+{ windy=false,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#394:(Support=0.31, Confidence=0.69)
+{ humidity=normal, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#395:(Support=0.12, Confidence=0.48)
+{ humidity=normal, windy=true,  }
+ ---->{ playtennis=n,  }
+
+Rules#396:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#397:(Support=0.12, Confidence=1.0)
+{ humidity=normal, playtennis=n,  }
+ ---->{ windy=true,  }
+
+Rules#398:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ humidity=normal, playtennis=n,  }
+
+Rules#399:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ humidity=normal, playtennis=n,  }
+
+Rules#400:(Support=0.12, Confidence=1.0)
+{ humidity=normal, playtennis=n,  }
+ ---->{ windy=true,  }
+
+Rules#401:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#402:(Support=0.12, Confidence=0.48)
+{ humidity=normal, windy=true,  }
+ ---->{ playtennis=n,  }
+
+Rules#403:(Support=0.22, Confidence=0.81)
+{ humidity=high, windy=false,  }
+ ---->{ outlook=sunny,  }
+
+Rules#404:(Support=0.22, Confidence=0.51)
+{ outlook=sunny,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#405:(Support=0.22, Confidence=0.71)
+{ outlook=sunny, windy=false,  }
+ ---->{ humidity=high,  }
+
+Rules#406:(Support=0.22, Confidence=0.54)
+{ humidity=high,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#407:(Support=0.22, Confidence=0.92)
+{ outlook=sunny, humidity=high,  }
+ ---->{ windy=false,  }
+
+Rules#408:(Support=0.22, Confidence=0.37)
+{ windy=false,  }
+ ---->{ outlook=sunny, humidity=high,  }
+
+Rules#409:(Support=0.22, Confidence=0.37)
+{ windy=false,  }
+ ---->{ outlook=sunny, humidity=high,  }
+
+Rules#410:(Support=0.22, Confidence=0.92)
+{ outlook=sunny, humidity=high,  }
+ ---->{ windy=false,  }
+
+Rules#411:(Support=0.22, Confidence=0.54)
+{ humidity=high,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#412:(Support=0.22, Confidence=0.71)
+{ outlook=sunny, windy=false,  }
+ ---->{ humidity=high,  }
+
+Rules#413:(Support=0.22, Confidence=0.51)
+{ outlook=sunny,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#414:(Support=0.22, Confidence=0.81)
+{ humidity=high, windy=false,  }
+ ---->{ outlook=sunny,  }
+
+Rules#415:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ windy=false,  }
+
+Rules#416:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#417:(Support=0.12, Confidence=0.75)
+{ outlook=overcast, windy=false,  }
+ ---->{ humidity=normal,  }
+
+Rules#418:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#419:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#420:(Support=0.12, Confidence=0.75)
+{ outlook=overcast, windy=false,  }
+ ---->{ humidity=normal,  }
+
+Rules#421:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#422:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ windy=false,  }
+
+Rules#423:(Support=0.14, Confidence=0.56)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#424:(Support=0.14, Confidence=0.7)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#425:(Support=0.14, Confidence=1.0)
+{ temperature=hot, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#426:(Support=0.14, Confidence=0.38)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#427:(Support=0.14, Confidence=0.88)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ playtennis=p,  }
+
+Rules#428:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#429:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#430:(Support=0.14, Confidence=0.88)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ playtennis=p,  }
+
+Rules#431:(Support=0.14, Confidence=0.38)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#432:(Support=0.14, Confidence=1.0)
+{ temperature=hot, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#433:(Support=0.14, Confidence=0.7)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#434:(Support=0.14, Confidence=0.56)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#435:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#436:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#437:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ playtennis=n,  }
+
+Rules#438:(Support=0.2, Confidence=0.51)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#439:(Support=0.2, Confidence=0.51)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#440:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ playtennis=n,  }
+
+Rules#441:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#442:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#443:(Support=0.14, Confidence=0.31)
+{ humidity=normal, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#444:(Support=0.14, Confidence=0.38)
+{ outlook=overcast,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#445:(Support=0.12, Confidence=0.86)
+{ humidity=high, windy=true,  }
+ ---->{ temperature=mild,  }
+
+Rules#446:(Support=0.12, Confidence=0.23)
+{ temperature=mild,  }
+ ---->{ humidity=high, windy=true,  }
+
+Rules#447:(Support=0.12, Confidence=0.36)
+{ humidity=high, temperature=mild,  }
+ ---->{ windy=true,  }
+
+Rules#448:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#449:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#450:(Support=0.12, Confidence=0.36)
+{ humidity=high, temperature=mild,  }
+ ---->{ windy=true,  }
+
+Rules#451:(Support=0.12, Confidence=0.23)
+{ temperature=mild,  }
+ ---->{ humidity=high, windy=true,  }
+
+Rules#452:(Support=0.12, Confidence=0.86)
+{ humidity=high, windy=true,  }
+ ---->{ temperature=mild,  }
+
+Rules#453:(Support=0.2, Confidence=0.44)
+{ humidity=normal, playtennis=p,  }
+ ---->{ outlook=sunny,  }
+
+Rules#454:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#455:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#456:(Support=0.2, Confidence=0.35)
+{ humidity=normal,  }
+ ---->{ outlook=sunny, playtennis=p,  }
+
+Rules#457:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#458:(Support=0.2, Confidence=0.34)
+{ playtennis=p,  }
+ ---->{ outlook=sunny, humidity=normal,  }
+
+Rules#459:(Support=0.2, Confidence=0.34)
+{ playtennis=p,  }
+ ---->{ outlook=sunny, humidity=normal,  }
+
+Rules#460:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#461:(Support=0.2, Confidence=0.35)
+{ humidity=normal,  }
+ ---->{ outlook=sunny, playtennis=p,  }
+
+Rules#462:(Support=0.2, Confidence=1.0)
+{ outlook=sunny, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#463:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#464:(Support=0.2, Confidence=0.44)
+{ humidity=normal, playtennis=p,  }
+ ---->{ outlook=sunny,  }
+
+Rules#465:(Support=0.12, Confidence=0.86)
+{ humidity=high, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#466:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ humidity=high, playtennis=p,  }
+
+Rules#467:(Support=0.12, Confidence=0.48)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ humidity=high,  }
+
+Rules#468:(Support=0.12, Confidence=0.29)
+{ humidity=high,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#469:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, humidity=high,  }
+ ---->{ playtennis=p,  }
+
+Rules#470:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=overcast, humidity=high,  }
+
+Rules#471:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=overcast, humidity=high,  }
+
+Rules#472:(Support=0.12, Confidence=0.86)
+{ outlook=overcast, humidity=high,  }
+ ---->{ playtennis=p,  }
+
+Rules#473:(Support=0.12, Confidence=0.29)
+{ humidity=high,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#474:(Support=0.12, Confidence=0.48)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ humidity=high,  }
+
+Rules#475:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ humidity=high, playtennis=p,  }
+
+Rules#476:(Support=0.12, Confidence=0.86)
+{ humidity=high, playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#477:(Support=0.16, Confidence=1.0)
+{ temperature=cool, windy=true,  }
+ ---->{ humidity=normal,  }
+
+Rules#478:(Support=0.16, Confidence=0.28)
+{ humidity=normal,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#479:(Support=0.16, Confidence=0.64)
+{ humidity=normal, windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#480:(Support=0.16, Confidence=0.64)
+{ temperature=cool,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#481:(Support=0.16, Confidence=0.64)
+{ humidity=normal, temperature=cool,  }
+ ---->{ windy=true,  }
+
+Rules#482:(Support=0.16, Confidence=0.41)
+{ windy=true,  }
+ ---->{ humidity=normal, temperature=cool,  }
+
+Rules#483:(Support=0.16, Confidence=0.41)
+{ windy=true,  }
+ ---->{ humidity=normal, temperature=cool,  }
+
+Rules#484:(Support=0.16, Confidence=0.64)
+{ humidity=normal, temperature=cool,  }
+ ---->{ windy=true,  }
+
+Rules#485:(Support=0.16, Confidence=0.64)
+{ temperature=cool,  }
+ ---->{ humidity=normal, windy=true,  }
+
+Rules#486:(Support=0.16, Confidence=0.64)
+{ humidity=normal, windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#487:(Support=0.16, Confidence=0.28)
+{ humidity=normal,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#488:(Support=0.16, Confidence=1.0)
+{ temperature=cool, windy=true,  }
+ ---->{ humidity=normal,  }
+
+Rules#489:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ outlook=rain,  }
+
+Rules#490:(Support=0.12, Confidence=0.67)
+{ outlook=rain,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#491:(Support=0.12, Confidence=0.86)
+{ outlook=rain, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#492:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=rain, playtennis=p,  }
+
+Rules#493:(Support=0.12, Confidence=0.86)
+{ outlook=rain, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#494:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=rain, humidity=normal,  }
+
+Rules#495:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=rain, humidity=normal,  }
+
+Rules#496:(Support=0.12, Confidence=0.86)
+{ outlook=rain, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#497:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=rain, playtennis=p,  }
+
+Rules#498:(Support=0.12, Confidence=0.86)
+{ outlook=rain, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#499:(Support=0.12, Confidence=0.67)
+{ outlook=rain,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#500:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ outlook=rain,  }
+
+Rules#501:(Support=0.22, Confidence=0.81)
+{ humidity=high, windy=false,  }
+ ---->{ temperature=mild,  }
+
+Rules#502:(Support=0.22, Confidence=0.42)
+{ temperature=mild,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#503:(Support=0.22, Confidence=0.67)
+{ humidity=high, temperature=mild,  }
+ ---->{ windy=false,  }
+
+Rules#504:(Support=0.22, Confidence=0.37)
+{ windy=false,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#505:(Support=0.22, Confidence=0.37)
+{ windy=false,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#506:(Support=0.22, Confidence=0.67)
+{ humidity=high, temperature=mild,  }
+ ---->{ windy=false,  }
+
+Rules#507:(Support=0.22, Confidence=0.42)
+{ temperature=mild,  }
+ ---->{ humidity=high, windy=false,  }
+
+Rules#508:(Support=0.22, Confidence=0.81)
+{ humidity=high, windy=false,  }
+ ---->{ temperature=mild,  }
+
+Rules#509:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal,  }
+ ---->{ temperature=hot,  }
+
+Rules#510:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#511:(Support=0.12, Confidence=0.67)
+{ temperature=hot, windy=false,  }
+ ---->{ humidity=normal,  }
+
+Rules#512:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#513:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#514:(Support=0.12, Confidence=0.67)
+{ temperature=hot, windy=false,  }
+ ---->{ humidity=normal,  }
+
+Rules#515:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ windy=false, humidity=normal,  }
+
+Rules#516:(Support=0.12, Confidence=0.39)
+{ windy=false, humidity=normal,  }
+ ---->{ temperature=hot,  }
+
+Rules#517:(Support=0.24, Confidence=0.89)
+{ humidity=high, playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#518:(Support=0.24, Confidence=0.56)
+{ outlook=sunny,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#519:(Support=0.24, Confidence=1.0)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#520:(Support=0.24, Confidence=0.59)
+{ humidity=high,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#521:(Support=0.24, Confidence=1.0)
+{ outlook=sunny, humidity=high,  }
+ ---->{ playtennis=n,  }
+
+Rules#522:(Support=0.24, Confidence=0.62)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, humidity=high,  }
+
+Rules#523:(Support=0.24, Confidence=0.62)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, humidity=high,  }
+
+Rules#524:(Support=0.24, Confidence=1.0)
+{ outlook=sunny, humidity=high,  }
+ ---->{ playtennis=n,  }
+
+Rules#525:(Support=0.24, Confidence=0.59)
+{ humidity=high,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#526:(Support=0.24, Confidence=1.0)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#527:(Support=0.24, Confidence=0.56)
+{ outlook=sunny,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#528:(Support=0.24, Confidence=0.89)
+{ humidity=high, playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#529:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#530:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#531:(Support=0.12, Confidence=0.86)
+{ temperature=hot, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#532:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#533:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#534:(Support=0.12, Confidence=0.86)
+{ temperature=hot, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#535:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#536:(Support=0.12, Confidence=0.27)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#537:(Support=0.12, Confidence=0.86)
+{ humidity=high, playtennis=p,  }
+ ---->{ temperature=mild,  }
+
+Rules#538:(Support=0.12, Confidence=0.23)
+{ temperature=mild,  }
+ ---->{ humidity=high, playtennis=p,  }
+
+Rules#539:(Support=0.12, Confidence=0.36)
+{ humidity=high, temperature=mild,  }
+ ---->{ playtennis=p,  }
+
+Rules#540:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#541:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#542:(Support=0.12, Confidence=0.36)
+{ humidity=high, temperature=mild,  }
+ ---->{ playtennis=p,  }
+
+Rules#543:(Support=0.12, Confidence=0.23)
+{ temperature=mild,  }
+ ---->{ humidity=high, playtennis=p,  }
+
+Rules#544:(Support=0.12, Confidence=0.86)
+{ humidity=high, playtennis=p,  }
+ ---->{ temperature=mild,  }
+
+Rules#545:(Support=0.14, Confidence=0.56)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#546:(Support=0.14, Confidence=0.24)
+{ windy=false,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#547:(Support=0.14, Confidence=0.88)
+{ outlook=overcast, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#548:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#549:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#550:(Support=0.14, Confidence=0.88)
+{ outlook=overcast, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#551:(Support=0.14, Confidence=0.24)
+{ windy=false,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#552:(Support=0.14, Confidence=0.56)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#553:(Support=0.22, Confidence=0.81)
+{ humidity=high, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#554:(Support=0.22, Confidence=0.42)
+{ temperature=mild,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#555:(Support=0.22, Confidence=0.67)
+{ humidity=high, temperature=mild,  }
+ ---->{ playtennis=n,  }
+
+Rules#556:(Support=0.22, Confidence=0.56)
+{ playtennis=n,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#557:(Support=0.22, Confidence=0.56)
+{ playtennis=n,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#558:(Support=0.22, Confidence=0.67)
+{ humidity=high, temperature=mild,  }
+ ---->{ playtennis=n,  }
+
+Rules#559:(Support=0.22, Confidence=0.42)
+{ temperature=mild,  }
+ ---->{ humidity=high, playtennis=n,  }
+
+Rules#560:(Support=0.22, Confidence=0.81)
+{ humidity=high, playtennis=n,  }
+ ---->{ temperature=mild,  }
+
+Rules#561:(Support=0.14, Confidence=1.0)
+{ temperature=cool, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#562:(Support=0.14, Confidence=0.25)
+{ humidity=normal,  }
+ ---->{ temperature=cool, playtennis=p,  }
+
+Rules#563:(Support=0.14, Confidence=0.31)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=cool,  }
+
+Rules#564:(Support=0.14, Confidence=0.56)
+{ temperature=cool,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#565:(Support=0.14, Confidence=0.56)
+{ humidity=normal, temperature=cool,  }
+ ---->{ playtennis=p,  }
+
+Rules#566:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ humidity=normal, temperature=cool,  }
+
+Rules#567:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ humidity=normal, temperature=cool,  }
+
+Rules#568:(Support=0.14, Confidence=0.56)
+{ humidity=normal, temperature=cool,  }
+ ---->{ playtennis=p,  }
+
+Rules#569:(Support=0.14, Confidence=0.56)
+{ temperature=cool,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#570:(Support=0.14, Confidence=0.31)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=cool,  }
+
+Rules#571:(Support=0.14, Confidence=0.25)
+{ humidity=normal,  }
+ ---->{ temperature=cool, playtennis=p,  }
+
+Rules#572:(Support=0.14, Confidence=1.0)
+{ temperature=cool, playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#573:(Support=0.12, Confidence=1.0)
+{ temperature=cool, playtennis=n,  }
+ ---->{ humidity=normal,  }
+
+Rules#574:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=cool, playtennis=n,  }
+
+Rules#575:(Support=0.12, Confidence=1.0)
+{ humidity=normal, playtennis=n,  }
+ ---->{ temperature=cool,  }
+
+Rules#576:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ humidity=normal, playtennis=n,  }
+
+Rules#577:(Support=0.12, Confidence=0.48)
+{ humidity=normal, temperature=cool,  }
+ ---->{ playtennis=n,  }
+
+Rules#578:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ humidity=normal, temperature=cool,  }
+
+Rules#579:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ humidity=normal, temperature=cool,  }
+
+Rules#580:(Support=0.12, Confidence=0.48)
+{ humidity=normal, temperature=cool,  }
+ ---->{ playtennis=n,  }
+
+Rules#581:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ humidity=normal, playtennis=n,  }
+
+Rules#582:(Support=0.12, Confidence=1.0)
+{ humidity=normal, playtennis=n,  }
+ ---->{ temperature=cool,  }
+
+Rules#583:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=cool, playtennis=n,  }
+
+Rules#584:(Support=0.12, Confidence=1.0)
+{ temperature=cool, playtennis=n,  }
+ ---->{ humidity=normal,  }
+
+Rules#585:(Support=0.12, Confidence=0.86)
+{ outlook=rain, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#586:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=rain, playtennis=p,  }
+
+Rules#587:(Support=0.12, Confidence=1.0)
+{ outlook=rain, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#588:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=rain, windy=false,  }
+
+Rules#589:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=rain, windy=false,  }
+
+Rules#590:(Support=0.12, Confidence=1.0)
+{ outlook=rain, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#591:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=rain, playtennis=p,  }
+
+Rules#592:(Support=0.12, Confidence=0.86)
+{ outlook=rain, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#593:(Support=0.2, Confidence=0.44)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=mild,  }
+
+Rules#594:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#595:(Support=0.2, Confidence=1.0)
+{ temperature=mild, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#596:(Support=0.2, Confidence=0.34)
+{ playtennis=p,  }
+ ---->{ temperature=mild, humidity=normal,  }
+
+Rules#597:(Support=0.2, Confidence=0.34)
+{ playtennis=p,  }
+ ---->{ temperature=mild, humidity=normal,  }
+
+Rules#598:(Support=0.2, Confidence=1.0)
+{ temperature=mild, humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#599:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ humidity=normal, playtennis=p,  }
+
+Rules#600:(Support=0.2, Confidence=0.44)
+{ humidity=normal, playtennis=p,  }
+ ---->{ temperature=mild,  }
+
+Rules#601:(Support=0.12, Confidence=0.48)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ windy=true,  }
+
+Rules#602:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#603:(Support=0.12, Confidence=0.55)
+{ outlook=overcast, windy=true,  }
+ ---->{ playtennis=p,  }
+
+Rules#604:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=overcast, windy=true,  }
+
+Rules#605:(Support=0.12, Confidence=0.2)
+{ playtennis=p,  }
+ ---->{ outlook=overcast, windy=true,  }
+
+Rules#606:(Support=0.12, Confidence=0.55)
+{ outlook=overcast, windy=true,  }
+ ---->{ playtennis=p,  }
+
+Rules#607:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=overcast, playtennis=p,  }
+
+Rules#608:(Support=0.12, Confidence=0.48)
+{ outlook=overcast, playtennis=p,  }
+ ---->{ windy=true,  }
+
+Rules#609:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=hot,  }
+
+Rules#610:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#611:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ humidity=normal,  }
+
+Rules#612:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#613:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#614:(Support=0.12, Confidence=0.75)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ humidity=normal,  }
+
+Rules#615:(Support=0.12, Confidence=0.6)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#616:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=hot,  }
+
+Rules#617:(Support=0.2, Confidence=0.61)
+{ humidity=high, temperature=mild,  }
+ ---->{ outlook=sunny,  }
+
+Rules#618:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#619:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ humidity=high,  }
+
+Rules#620:(Support=0.2, Confidence=0.49)
+{ humidity=high,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#621:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, humidity=high,  }
+ ---->{ temperature=mild,  }
+
+Rules#622:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, humidity=high,  }
+
+Rules#623:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, humidity=high,  }
+
+Rules#624:(Support=0.2, Confidence=0.83)
+{ outlook=sunny, humidity=high,  }
+ ---->{ temperature=mild,  }
+
+Rules#625:(Support=0.2, Confidence=0.49)
+{ humidity=high,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#626:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ humidity=high,  }
+
+Rules#627:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=high, temperature=mild,  }
+
+Rules#628:(Support=0.2, Confidence=0.61)
+{ humidity=high, temperature=mild,  }
+ ---->{ outlook=sunny,  }
+
+Rules#629:(Support=0.12, Confidence=0.48)
+{ humidity=normal, temperature=cool,  }
+ ---->{ outlook=overcast,  }
+
+Rules#630:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ humidity=normal, temperature=cool,  }
+
+Rules#631:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool,  }
+ ---->{ humidity=normal,  }
+
+Rules#632:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=overcast, temperature=cool,  }
+
+Rules#633:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=cool,  }
+
+Rules#634:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#635:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ outlook=overcast, humidity=normal,  }
+
+Rules#636:(Support=0.12, Confidence=0.5)
+{ outlook=overcast, humidity=normal,  }
+ ---->{ temperature=cool,  }
+
+Rules#637:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ outlook=overcast, temperature=cool,  }
+
+Rules#638:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool,  }
+ ---->{ humidity=normal,  }
+
+Rules#639:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ humidity=normal, temperature=cool,  }
+
+Rules#640:(Support=0.12, Confidence=0.48)
+{ humidity=normal, temperature=cool,  }
+ ---->{ outlook=overcast,  }
+
+Rules#641:(Support=0.22, Confidence=0.92)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#642:(Support=0.22, Confidence=0.37)
+{ windy=false,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#643:(Support=0.22, Confidence=0.71)
+{ outlook=sunny, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#644:(Support=0.22, Confidence=0.56)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#645:(Support=0.22, Confidence=0.56)
+{ playtennis=n,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#646:(Support=0.22, Confidence=0.71)
+{ outlook=sunny, windy=false,  }
+ ---->{ playtennis=n,  }
+
+Rules#647:(Support=0.22, Confidence=0.37)
+{ windy=false,  }
+ ---->{ outlook=sunny, playtennis=n,  }
+
+Rules#648:(Support=0.22, Confidence=0.92)
+{ outlook=sunny, playtennis=n,  }
+ ---->{ windy=false,  }
+
+Rules#649:(Support=0.14, Confidence=1.0)
+{ temperature=hot, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#650:(Support=0.14, Confidence=0.24)
+{ windy=false,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#651:(Support=0.14, Confidence=0.78)
+{ temperature=hot, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#652:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#653:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#654:(Support=0.14, Confidence=0.78)
+{ temperature=hot, windy=false,  }
+ ---->{ playtennis=p,  }
+
+Rules#655:(Support=0.14, Confidence=0.24)
+{ windy=false,  }
+ ---->{ temperature=hot, playtennis=p,  }
+
+Rules#656:(Support=0.14, Confidence=1.0)
+{ temperature=hot, playtennis=p,  }
+ ---->{ windy=false,  }
+
+Rules#657:(Support=0.12, Confidence=0.75)
+{ temperature=cool, windy=true,  }
+ ---->{ outlook=overcast,  }
+
+Rules#658:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#659:(Support=0.12, Confidence=0.55)
+{ outlook=overcast, windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#660:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ outlook=overcast, windy=true,  }
+
+Rules#661:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool,  }
+ ---->{ windy=true,  }
+
+Rules#662:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=overcast, temperature=cool,  }
+
+Rules#663:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=overcast, temperature=cool,  }
+
+Rules#664:(Support=0.12, Confidence=1.0)
+{ outlook=overcast, temperature=cool,  }
+ ---->{ windy=true,  }
+
+Rules#665:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ outlook=overcast, windy=true,  }
+
+Rules#666:(Support=0.12, Confidence=0.55)
+{ outlook=overcast, windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#667:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#668:(Support=0.12, Confidence=0.75)
+{ temperature=cool, windy=true,  }
+ ---->{ outlook=overcast,  }
+
+Rules#669:(Support=0.12, Confidence=0.75)
+{ temperature=cool, windy=true,  }
+ ---->{ playtennis=n,  }
+
+Rules#670:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#671:(Support=0.12, Confidence=1.0)
+{ temperature=cool, playtennis=n,  }
+ ---->{ windy=true,  }
+
+Rules#672:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ temperature=cool, playtennis=n,  }
+
+Rules#673:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ temperature=cool, playtennis=n,  }
+
+Rules#674:(Support=0.12, Confidence=1.0)
+{ temperature=cool, playtennis=n,  }
+ ---->{ windy=true,  }
+
+Rules#675:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ temperature=cool, windy=true,  }
+
+Rules#676:(Support=0.12, Confidence=0.75)
+{ temperature=cool, windy=true,  }
+ ---->{ playtennis=n,  }
+
+Rules#677:(Support=0.16, Confidence=1.0)
+{ outlook=overcast, windy=false,  }
+ ---->{ temperature=hot,  }
+
+Rules#678:(Support=0.16, Confidence=0.8)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#679:(Support=0.16, Confidence=0.89)
+{ temperature=hot, windy=false,  }
+ ---->{ outlook=overcast,  }
+
+Rules#680:(Support=0.16, Confidence=0.43)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#681:(Support=0.16, Confidence=1.0)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ windy=false,  }
+
+Rules#682:(Support=0.16, Confidence=0.27)
+{ windy=false,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#683:(Support=0.16, Confidence=0.27)
+{ windy=false,  }
+ ---->{ temperature=hot, outlook=overcast,  }
+
+Rules#684:(Support=0.16, Confidence=1.0)
+{ temperature=hot, outlook=overcast,  }
+ ---->{ windy=false,  }
+
+Rules#685:(Support=0.16, Confidence=0.43)
+{ outlook=overcast,  }
+ ---->{ temperature=hot, windy=false,  }
+
+Rules#686:(Support=0.16, Confidence=0.89)
+{ temperature=hot, windy=false,  }
+ ---->{ outlook=overcast,  }
+
+Rules#687:(Support=0.16, Confidence=0.8)
+{ temperature=hot,  }
+ ---->{ outlook=overcast, windy=false,  }
+
+Rules#688:(Support=0.16, Confidence=1.0)
+{ outlook=overcast, windy=false,  }
+ ---->{ temperature=hot,  }
+
+Rules#689:(Support=0.2, Confidence=0.65)
+{ outlook=sunny, windy=false,  }
+ ---->{ temperature=mild,  }
+
+Rules#690:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#691:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ windy=false,  }
+
+Rules#692:(Support=0.2, Confidence=0.34)
+{ windy=false,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#693:(Support=0.2, Confidence=0.34)
+{ windy=false,  }
+ ---->{ outlook=sunny, temperature=mild,  }
+
+Rules#694:(Support=0.2, Confidence=0.69)
+{ outlook=sunny, temperature=mild,  }
+ ---->{ windy=false,  }
+
+Rules#695:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ outlook=sunny, windy=false,  }
+
+Rules#696:(Support=0.2, Confidence=0.65)
+{ outlook=sunny, windy=false,  }
+ ---->{ temperature=mild,  }
+
+Rules#697:(Support=0.12, Confidence=1.0)
+{ outlook=rain, windy=false,  }
+ ---->{ temperature=mild,  }
+
+Rules#698:(Support=0.12, Confidence=0.23)
+{ temperature=mild,  }
+ ---->{ outlook=rain, windy=false,  }
+
+Rules#699:(Support=0.12, Confidence=0.86)
+{ outlook=rain, temperature=mild,  }
+ ---->{ windy=false,  }
+
+Rules#700:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=rain, temperature=mild,  }
+
+Rules#701:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=rain, temperature=mild,  }
+
+Rules#702:(Support=0.12, Confidence=0.86)
+{ outlook=rain, temperature=mild,  }
+ ---->{ windy=false,  }
+
+Rules#703:(Support=0.12, Confidence=0.23)
+{ temperature=mild,  }
+ ---->{ outlook=rain, windy=false,  }
+
+Rules#704:(Support=0.12, Confidence=1.0)
+{ outlook=rain, windy=false,  }
+ ---->{ temperature=mild,  }
+
+Rules#705:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=cool,  }
+
+Rules#706:(Support=0.14, Confidence=0.56)
+{ temperature=cool,  }
+ ---->{ playtennis=p,  }
+
+Rules#707:(Support=0.14, Confidence=0.56)
+{ temperature=cool,  }
+ ---->{ playtennis=p,  }
+
+Rules#708:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=cool,  }
+
+Rules#709:(Support=0.45, Confidence=0.76)
+{ playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#710:(Support=0.45, Confidence=0.79)
+{ humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#711:(Support=0.45, Confidence=0.79)
+{ humidity=normal,  }
+ ---->{ playtennis=p,  }
+
+Rules#712:(Support=0.45, Confidence=0.76)
+{ playtennis=p,  }
+ ---->{ humidity=normal,  }
+
+Rules#713:(Support=0.25, Confidence=1.0)
+{ temperature=cool,  }
+ ---->{ humidity=normal,  }
+
+Rules#714:(Support=0.25, Confidence=0.44)
+{ humidity=normal,  }
+ ---->{ temperature=cool,  }
+
+Rules#715:(Support=0.25, Confidence=0.44)
+{ humidity=normal,  }
+ ---->{ temperature=cool,  }
+
+Rules#716:(Support=0.25, Confidence=1.0)
+{ temperature=cool,  }
+ ---->{ humidity=normal,  }
+
+Rules#717:(Support=0.31, Confidence=0.54)
+{ humidity=normal,  }
+ ---->{ windy=false,  }
+
+Rules#718:(Support=0.31, Confidence=0.53)
+{ windy=false,  }
+ ---->{ humidity=normal,  }
+
+Rules#719:(Support=0.31, Confidence=0.53)
+{ windy=false,  }
+ ---->{ humidity=normal,  }
+
+Rules#720:(Support=0.31, Confidence=0.54)
+{ humidity=normal,  }
+ ---->{ windy=false,  }
+
+Rules#721:(Support=0.14, Confidence=0.36)
+{ windy=true,  }
+ ---->{ humidity=high,  }
+
+Rules#722:(Support=0.14, Confidence=0.34)
+{ humidity=high,  }
+ ---->{ windy=true,  }
+
+Rules#723:(Support=0.14, Confidence=0.34)
+{ humidity=high,  }
+ ---->{ windy=true,  }
+
+Rules#724:(Support=0.14, Confidence=0.36)
+{ windy=true,  }
+ ---->{ humidity=high,  }
+
+Rules#725:(Support=0.27, Confidence=0.69)
+{ playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#726:(Support=0.27, Confidence=0.66)
+{ humidity=high,  }
+ ---->{ playtennis=n,  }
+
+Rules#727:(Support=0.27, Confidence=0.66)
+{ humidity=high,  }
+ ---->{ playtennis=n,  }
+
+Rules#728:(Support=0.27, Confidence=0.69)
+{ playtennis=n,  }
+ ---->{ humidity=high,  }
+
+Rules#729:(Support=0.25, Confidence=0.42)
+{ playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#730:(Support=0.25, Confidence=0.68)
+{ outlook=overcast,  }
+ ---->{ playtennis=p,  }
+
+Rules#731:(Support=0.25, Confidence=0.68)
+{ outlook=overcast,  }
+ ---->{ playtennis=p,  }
+
+Rules#732:(Support=0.25, Confidence=0.42)
+{ playtennis=p,  }
+ ---->{ outlook=overcast,  }
+
+Rules#733:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#734:(Support=0.14, Confidence=0.7)
+{ temperature=hot,  }
+ ---->{ playtennis=p,  }
+
+Rules#735:(Support=0.14, Confidence=0.7)
+{ temperature=hot,  }
+ ---->{ playtennis=p,  }
+
+Rules#736:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ temperature=hot,  }
+
+Rules#737:(Support=0.16, Confidence=0.41)
+{ windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#738:(Support=0.16, Confidence=0.64)
+{ temperature=cool,  }
+ ---->{ windy=true,  }
+
+Rules#739:(Support=0.16, Confidence=0.64)
+{ temperature=cool,  }
+ ---->{ windy=true,  }
+
+Rules#740:(Support=0.16, Confidence=0.41)
+{ windy=true,  }
+ ---->{ temperature=cool,  }
+
+Rules#741:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ temperature=cool,  }
+
+Rules#742:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ playtennis=n,  }
+
+Rules#743:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ playtennis=n,  }
+
+Rules#744:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ temperature=cool,  }
+
+Rules#745:(Support=0.25, Confidence=0.64)
+{ windy=true,  }
+ ---->{ humidity=normal,  }
+
+Rules#746:(Support=0.25, Confidence=0.44)
+{ humidity=normal,  }
+ ---->{ windy=true,  }
+
+Rules#747:(Support=0.25, Confidence=0.44)
+{ humidity=normal,  }
+ ---->{ windy=true,  }
+
+Rules#748:(Support=0.25, Confidence=0.64)
+{ windy=true,  }
+ ---->{ humidity=normal,  }
+
+Rules#749:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ humidity=normal,  }
+
+Rules#750:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ playtennis=n,  }
+
+Rules#751:(Support=0.12, Confidence=0.21)
+{ humidity=normal,  }
+ ---->{ playtennis=n,  }
+
+Rules#752:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ humidity=normal,  }
+
+Rules#753:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ outlook=rain,  }
+
+Rules#754:(Support=0.14, Confidence=0.78)
+{ outlook=rain,  }
+ ---->{ playtennis=p,  }
+
+Rules#755:(Support=0.14, Confidence=0.78)
+{ outlook=rain,  }
+ ---->{ playtennis=p,  }
+
+Rules#756:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ outlook=rain,  }
+
+Rules#757:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ humidity=high,  }
+
+Rules#758:(Support=0.14, Confidence=0.34)
+{ humidity=high,  }
+ ---->{ playtennis=p,  }
+
+Rules#759:(Support=0.14, Confidence=0.34)
+{ humidity=high,  }
+ ---->{ playtennis=p,  }
+
+Rules#760:(Support=0.14, Confidence=0.24)
+{ playtennis=p,  }
+ ---->{ humidity=high,  }
+
+Rules#761:(Support=0.14, Confidence=0.26)
+{ temperature=mild,  }
+ ---->{ outlook=rain,  }
+
+Rules#762:(Support=0.14, Confidence=0.78)
+{ outlook=rain,  }
+ ---->{ temperature=mild,  }
+
+Rules#763:(Support=0.14, Confidence=0.78)
+{ outlook=rain,  }
+ ---->{ temperature=mild,  }
+
+Rules#764:(Support=0.14, Confidence=0.26)
+{ temperature=mild,  }
+ ---->{ outlook=rain,  }
+
+Rules#765:(Support=0.33, Confidence=0.62)
+{ temperature=mild,  }
+ ---->{ humidity=high,  }
+
+Rules#766:(Support=0.33, Confidence=0.8)
+{ humidity=high,  }
+ ---->{ temperature=mild,  }
+
+Rules#767:(Support=0.33, Confidence=0.8)
+{ humidity=high,  }
+ ---->{ temperature=mild,  }
+
+Rules#768:(Support=0.33, Confidence=0.62)
+{ temperature=mild,  }
+ ---->{ humidity=high,  }
+
+Rules#769:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ outlook=overcast,  }
+
+Rules#770:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=cool,  }
+
+Rules#771:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ temperature=cool,  }
+
+Rules#772:(Support=0.12, Confidence=0.48)
+{ temperature=cool,  }
+ ---->{ outlook=overcast,  }
+
+Rules#773:(Support=0.24, Confidence=0.42)
+{ humidity=normal,  }
+ ---->{ outlook=overcast,  }
+
+Rules#774:(Support=0.24, Confidence=0.65)
+{ outlook=overcast,  }
+ ---->{ humidity=normal,  }
+
+Rules#775:(Support=0.24, Confidence=0.65)
+{ outlook=overcast,  }
+ ---->{ humidity=normal,  }
+
+Rules#776:(Support=0.24, Confidence=0.42)
+{ humidity=normal,  }
+ ---->{ outlook=overcast,  }
+
+Rules#777:(Support=0.18, Confidence=0.31)
+{ windy=false,  }
+ ---->{ temperature=hot,  }
+
+Rules#778:(Support=0.18, Confidence=0.9)
+{ temperature=hot,  }
+ ---->{ windy=false,  }
+
+Rules#779:(Support=0.18, Confidence=0.9)
+{ temperature=hot,  }
+ ---->{ windy=false,  }
+
+Rules#780:(Support=0.18, Confidence=0.31)
+{ windy=false,  }
+ ---->{ temperature=hot,  }
+
+Rules#781:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=sunny,  }
+
+Rules#782:(Support=0.12, Confidence=0.28)
+{ outlook=sunny,  }
+ ---->{ windy=true,  }
+
+Rules#783:(Support=0.12, Confidence=0.28)
+{ outlook=sunny,  }
+ ---->{ windy=true,  }
+
+Rules#784:(Support=0.12, Confidence=0.31)
+{ windy=true,  }
+ ---->{ outlook=sunny,  }
+
+Rules#785:(Support=0.24, Confidence=0.62)
+{ playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#786:(Support=0.24, Confidence=0.56)
+{ outlook=sunny,  }
+ ---->{ playtennis=n,  }
+
+Rules#787:(Support=0.24, Confidence=0.56)
+{ outlook=sunny,  }
+ ---->{ playtennis=n,  }
+
+Rules#788:(Support=0.24, Confidence=0.62)
+{ playtennis=n,  }
+ ---->{ outlook=sunny,  }
+
+Rules#789:(Support=0.16, Confidence=0.27)
+{ windy=false,  }
+ ---->{ outlook=overcast,  }
+
+Rules#790:(Support=0.16, Confidence=0.43)
+{ outlook=overcast,  }
+ ---->{ windy=false,  }
+
+Rules#791:(Support=0.16, Confidence=0.43)
+{ outlook=overcast,  }
+ ---->{ windy=false,  }
+
+Rules#792:(Support=0.16, Confidence=0.27)
+{ windy=false,  }
+ ---->{ outlook=overcast,  }
+
+Rules#793:(Support=0.14, Confidence=0.25)
+{ humidity=normal,  }
+ ---->{ outlook=rain,  }
+
+Rules#794:(Support=0.14, Confidence=0.78)
+{ outlook=rain,  }
+ ---->{ humidity=normal,  }
+
+Rules#795:(Support=0.14, Confidence=0.78)
+{ outlook=rain,  }
+ ---->{ humidity=normal,  }
+
+Rules#796:(Support=0.14, Confidence=0.25)
+{ humidity=normal,  }
+ ---->{ outlook=rain,  }
+
+Rules#797:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=rain,  }
+
+Rules#798:(Support=0.12, Confidence=0.67)
+{ outlook=rain,  }
+ ---->{ windy=false,  }
+
+Rules#799:(Support=0.12, Confidence=0.67)
+{ outlook=rain,  }
+ ---->{ windy=false,  }
+
+Rules#800:(Support=0.12, Confidence=0.2)
+{ windy=false,  }
+ ---->{ outlook=rain,  }
+
+Rules#801:(Support=0.27, Confidence=0.46)
+{ windy=false,  }
+ ---->{ humidity=high,  }
+
+Rules#802:(Support=0.27, Confidence=0.66)
+{ humidity=high,  }
+ ---->{ windy=false,  }
+
+Rules#803:(Support=0.27, Confidence=0.66)
+{ humidity=high,  }
+ ---->{ windy=false,  }
+
+Rules#804:(Support=0.27, Confidence=0.46)
+{ windy=false,  }
+ ---->{ humidity=high,  }
+
+Rules#805:(Support=0.2, Confidence=0.35)
+{ humidity=normal,  }
+ ---->{ temperature=mild,  }
+
+Rules#806:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ humidity=normal,  }
+
+Rules#807:(Support=0.2, Confidence=0.38)
+{ temperature=mild,  }
+ ---->{ humidity=normal,  }
+
+Rules#808:(Support=0.2, Confidence=0.35)
+{ humidity=normal,  }
+ ---->{ temperature=mild,  }
+
+Rules#809:(Support=0.22, Confidence=0.56)
+{ windy=true,  }
+ ---->{ outlook=overcast,  }
+
+Rules#810:(Support=0.22, Confidence=0.59)
+{ outlook=overcast,  }
+ ---->{ windy=true,  }
+
+Rules#811:(Support=0.22, Confidence=0.59)
+{ outlook=overcast,  }
+ ---->{ windy=true,  }
+
+Rules#812:(Support=0.22, Confidence=0.56)
+{ windy=true,  }
+ ---->{ outlook=overcast,  }
+
+Rules#813:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ outlook=overcast,  }
+
+Rules#814:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ playtennis=n,  }
+
+Rules#815:(Support=0.12, Confidence=0.32)
+{ outlook=overcast,  }
+ ---->{ playtennis=n,  }
+
+Rules#816:(Support=0.12, Confidence=0.31)
+{ playtennis=n,  }
+ ---->{ outlook=overcast,  }
+
+Rules#817:(Support=0.2, Confidence=0.34)
+{ playtennis=p,  }
+ ---->{ outlook=sunny,  }
+
+Rules#818:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ playtennis=p,  }
+
+Rules#819:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ playtennis=p,  }
+
+Rules#820:(Support=0.2, Confidence=0.34)
+{ playtennis=p,  }
+ ---->{ outlook=sunny,  }
+
+Rules#821:(Support=0.16, Confidence=0.43)
+{ outlook=overcast,  }
+ ---->{ temperature=hot,  }
+
+Rules#822:(Support=0.16, Confidence=0.8)
+{ temperature=hot,  }
+ ---->{ outlook=overcast,  }
+
+Rules#823:(Support=0.16, Confidence=0.8)
+{ temperature=hot,  }
+ ---->{ outlook=overcast,  }
+
+Rules#824:(Support=0.16, Confidence=0.43)
+{ outlook=overcast,  }
+ ---->{ temperature=hot,  }
+
+Rules#825:(Support=0.29, Confidence=0.55)
+{ temperature=mild,  }
+ ---->{ outlook=sunny,  }
+
+Rules#826:(Support=0.29, Confidence=0.67)
+{ outlook=sunny,  }
+ ---->{ temperature=mild,  }
+
+Rules#827:(Support=0.29, Confidence=0.67)
+{ outlook=sunny,  }
+ ---->{ temperature=mild,  }
+
+Rules#828:(Support=0.29, Confidence=0.55)
+{ temperature=mild,  }
+ ---->{ outlook=sunny,  }
+
+Rules#829:(Support=0.24, Confidence=0.59)
+{ humidity=high,  }
+ ---->{ outlook=sunny,  }
+
+Rules#830:(Support=0.24, Confidence=0.56)
+{ outlook=sunny,  }
+ ---->{ humidity=high,  }
+
+Rules#831:(Support=0.24, Confidence=0.56)
+{ outlook=sunny,  }
+ ---->{ humidity=high,  }
+
+Rules#832:(Support=0.24, Confidence=0.59)
+{ humidity=high,  }
+ ---->{ outlook=sunny,  }
+
+Rules#833:(Support=0.14, Confidence=0.34)
+{ humidity=high,  }
+ ---->{ outlook=overcast,  }
+
+Rules#834:(Support=0.14, Confidence=0.38)
+{ outlook=overcast,  }
+ ---->{ humidity=high,  }
+
+Rules#835:(Support=0.14, Confidence=0.38)
+{ outlook=overcast,  }
+ ---->{ humidity=high,  }
+
+Rules#836:(Support=0.14, Confidence=0.34)
+{ humidity=high,  }
+ ---->{ outlook=overcast,  }
+
+Rules#837:(Support=0.2, Confidence=0.35)
+{ humidity=normal,  }
+ ---->{ outlook=sunny,  }
+
+Rules#838:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=normal,  }
+
+Rules#839:(Support=0.2, Confidence=0.47)
+{ outlook=sunny,  }
+ ---->{ humidity=normal,  }
+
+Rules#840:(Support=0.2, Confidence=0.35)
+{ humidity=normal,  }
+ ---->{ outlook=sunny,  }
+
+Rules#841:(Support=0.31, Confidence=0.53)
+{ windy=false,  }
+ ---->{ outlook=sunny,  }
+
+Rules#842:(Support=0.31, Confidence=0.72)
+{ outlook=sunny,  }
+ ---->{ windy=false,  }
+
+Rules#843:(Support=0.31, Confidence=0.72)
+{ outlook=sunny,  }
+ ---->{ windy=false,  }
+
+Rules#844:(Support=0.31, Confidence=0.53)
+{ windy=false,  }
+ ---->{ outlook=sunny,  }
+

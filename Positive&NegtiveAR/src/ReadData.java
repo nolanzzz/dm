@@ -133,6 +133,13 @@ public class ReadData {
 		for (int i=0;i<tuples.size();i++) 
 			System.out.println(tuples.get(i));
 	}
+	/**
+	 * return the size of transactions
+	 * @return
+	 */
+	public int rowCount(){
+		return this.tuples.size();
+	}
 }
 		
 	

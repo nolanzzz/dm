@@ -19,13 +19,14 @@ public class GenerateItemset {
      double mi = 0;
      
      
-     public GenerateItemset(String fileName, ArrayList<ArrayList<String>> tuples, double ms, double mi) throws IOException
+     public GenerateItemset(ReadData rd, ArrayList<ArrayList<String>> tuples, double ms, double mi) throws IOException
      {
-    	 rd = new ReadData(fileName);
     	 this.tuples = tuples;
     	 tuplesSize = tuples.size();
     	 this.ms = ms;
-    	 this.mi = mi;   	 
+    	 this.mi = mi; 
+    	 this.rd = rd;
+    	 this.pruneItemset();
      }
      
 	public List<ArrayList<String>> firstItemSet()
@@ -43,6 +44,9 @@ public class GenerateItemset {
 				if(rd.getOccurence(listValue) > 0)
 				{
 					itemset.add(listValue);
+					Set<String> key = new HashSet<>();
+					key.addAll(listValue);
+					this.occurence.put(key, rd.getOccurence(listValue));
 				}
 			}				
 		}	
@@ -52,7 +56,7 @@ public class GenerateItemset {
 	//generate all posible combainations that are greater than mi 
 	public Map<Integer, Set<Set<String>>> generateItemset()
 	{	
-		List<ArrayList<String>>itemset = firstItemSet();
+		List<ArrayList<String>> itemset = firstItemSet();
 		
 		Map<Integer, Set<Set<String>>> allJoinList = new HashMap<Integer, Set<Set<String>>>();
 		int k = 2;
@@ -102,22 +106,26 @@ public class GenerateItemset {
 			for(Set<String> item : k_itemset)
 			{
 				ArrayList<String> listItem = new ArrayList<String>(item);
+				this.occurence.put(new HashSet<>(listItem), rd.getOccurence(listItem));
 				if(getSupport(listItem) > ms)
 					PL.add(item);
 				else 
 					NL.add(item);
 			}
 		}
+		
+		this.PL = PL;
+		this.NL = NL;
 	}
 	
 	public List<Set<String>> getNL()
 	{
-	    return NL;
+	    return this.NL;
 	}
 	
 	public List<Set<String>> getPL()
 	{
-		return PL;
+		return this.PL;
 	}
 	
 	public boolean allowJoin(Set<String> set1, Set<String> set2)
@@ -166,6 +174,13 @@ public class GenerateItemset {
 	   return value;
    }
 	
+   public void printItemSet(List<Set<String>> itemsets){
+		for(Set<String> itemset: itemsets){
+			System.out.println("itemset:   " + itemset.toString());
+		}
+	}
 	
-	
+   public Map<Set<String>, Integer> getOccurrenceMap(){
+	   return this.occurence;
+   }
 }
