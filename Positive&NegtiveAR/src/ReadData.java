@@ -26,7 +26,7 @@ public class ReadData {
 	
 	//new scanner to scan file
 	private Scanner readFile;
-
+	
 	/* constructor */
 	public ReadData(String filename) throws IOException {
 		this.filename = filename;
@@ -87,7 +87,7 @@ public class ReadData {
 	public int getOccurence(ArrayList<String> set) {
 		int count = 0;
 		int size = set.size();
-		for (int i=0;i<tuples.size();i++) {
+		for (int i=0;i<tuples.size();i++) {		
 			int occur = 0;
 			for (int j=0;j<size;j++) {
 				String tag = set.get(j);
@@ -132,6 +132,13 @@ public class ReadData {
 	public void enumerate() {
 		for (int i=0;i<tuples.size();i++) 
 			System.out.println(tuples.get(i));
+	}
+	/**
+	 * return the size of transactions
+	 * @return
+	 */
+	public int rowCount(){
+		return this.tuples.size();
 	}
 }
 		
