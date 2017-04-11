@@ -145,10 +145,6 @@ public class ReadData {
 	public int rowCount(){
 		return this.tuples.size();
 	}
-	public static void main(String [] args) throws IOException {
-		ReadData r1 = new ReadData("data2");
-		r1.enumerate();
-	}
 }
 		
 	
