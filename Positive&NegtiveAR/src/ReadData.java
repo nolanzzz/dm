@@ -30,8 +30,13 @@ public class ReadData {
 	/* constructor */
 	public ReadData(String filename) throws IOException {
 		this.filename = filename;
-		data = new File(filename);
-		readFile = new Scanner(data);
+		data = new File(filename);	
+		try {
+			readFile = new Scanner(data);
+		} catch (Exception e) {
+			System.out.println("File not found.");
+			System.exit(0);
+		}
 		retrieveAttr();
 		generateData();
 	}
